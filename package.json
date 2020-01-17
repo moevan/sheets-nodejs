@@ -1,0 +1,23 @@
+{
+  "name": "ok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "googleapis": "^47.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moevl/sheets-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moevl/sheets-nodejs/issues"
+  },
+  "homepage": "https://github.com/moevl/sheets-nodejs#readme"
+}
