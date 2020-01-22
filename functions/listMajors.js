@@ -10,7 +10,7 @@ function listMajors(auth) {
     const sheets = google.sheets({version: 'v4', auth});
     sheets.spreadsheets.values.get({
       spreadsheetId: spreadsheetId,
-      range: 'Class Data!A2:E',
+      range: 'Class Data!A2:D',
     }, (err, res) => {
       if (err) return console.log('The API returned an error: ' + err);
       const rows = res.data.values;

@@ -1,6 +1,7 @@
 const fs = require('fs');
 const {authorize, getNewToken} = require('./auth/auth');
 const {listMajors} = require('./functions/listMajors')
+const test=require('./functions/test')
 
 
 
@@ -8,7 +9,7 @@ const {listMajors} = require('./functions/listMajors')
 fs.readFile('./auth/client_credentials.json', (err, content) => {
   if (err) return console.log('Error loading client secret file:', err);
   // Authorize a client with credentials, then call the Google Sheets API.
-  authorize(JSON.parse(content), listMajors);
+  authorize(JSON.parse(content), test);
 });
 
 
